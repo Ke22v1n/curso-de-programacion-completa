@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url(menu.css);
+@import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(footer.css);
+*,
 *,*::before, *::after {
     box-sizing: border-box; /*evita que las cajas se desborden*/
     margin: 0;
@@ -6,12 +11,12 @@
 }
 
 :root{
-    --main-color: #2E073F;
-    --secundary-color: #7A1CAC;
-    --tertiary-color: #AD49E1;
-    --other-color:#EBD3F8;
-    --white: #ffff;
-    --black: #0000;
+    --main-color: #f8f8f8;
+    --secundary-color: #BD3111;
+    --tertiary-color: #875548;
+    --other-color:#603f79;
+    --white: #110f0f;
+    --black: #0000;     
 }
 
 /*todo lo puesto aca afecta al body de html*/
@@ -39,99 +44,3 @@ a {
     text-decoration: none;
 }
 
-.navbar {
-    display:flex;
-    justify-content: space-between;
-    background-color:var(--secundary-color);
-    padding: 1rem;
-    font-weight: 800;
-    text-transform: uppercase; }
-
-.navbar-list {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    align-items: center; }
-
-    .navbar-link {
-         color:var(--tertiary-color);
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-    transition: 
-    color 0.2s ease, background-color 0.2s ease;
-    }
-/*afecta a los links del html*/
-.nav-link:hover, .nav.link:focus-visible {
-    color:var(--other-color);
-    outline: none;
-}
-/*afecta al link cuando el maus esta encima*/
-
-/*logo menu*/
-
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-.navbar-brand img {
-    height: 2.5rem;
-    width: 2.5rem;
-    display: block;
-}
-
-/*WHO WE ARE*/
-
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-}
-
-.img-responsive {
-    width: 500px;
-    height: auto;
-}
-
-.container h2 {
-    font-size: 1.6em;
-    font-weight: bold;
-}
-p {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5em;
-}
-
-.pd-30 {
-    padding: 48px;
-}
-/*services*/
-.services {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-}
-.services h3 {
-    font-size: 32px;
-    font-weight: bold;
-    color: var(--other-color);
-}
-.services i {
-    color: var(--white);
-    font-size: 48px;
-}
-.title {
-    text-align: center;
-}
-
-.title h2 {
-    font-size: 48px;
-    color: var(--white);
-    line-height: 1.5em;
-}
-
-.services i:hover{
-    color: var(--black);
-}

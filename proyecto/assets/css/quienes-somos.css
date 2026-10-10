@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.img-responsive {
+    width: 500px;
+    height: auto;
+}
+
+.container .h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--black)
+}
+p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--white)
+}
+
+.pd-30 {
+    padding: 48px;
+}
