@@ -1,0 +1,42 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color:var(--secundary-color);
+    padding: 1rem;
+    font-weight: 800;
+    text-transform: uppercase; } /*transforma el texto en mayusculas minusculas y capital*/
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center; }
+
+    .navbar-link {
+         color:var(--tertiary-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: 
+    color 0.2s ease, background-color 0.2s ease;
+    }
+/*afecta a los links del html*/
+.nav-link:hover, .nav.link:focus-visible {
+    color:var(--other-color);
+    outline: none;
+}
+/*afecta al link cuando el maus esta encima*/
+
+/*logo menu*/
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: block;
+}
