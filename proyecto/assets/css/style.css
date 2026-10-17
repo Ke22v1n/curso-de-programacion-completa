@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+ :root {
+  --main-color: #17153B;
+  --secondary-color: #2E236C;
+  --tertiary-color: #433D8B;
+  --other-color: #C8ACD6;
+  --white-color: #ffff;
+  --black-color: #0000;
+ }
+body{
+    margin: 100;
+    padding :10000;
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+h1{
+    font-size: 56px;
+    color: var(--other-color);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-size: 48px;
+    padding: 200px;
+    margin: 50px;
+}
+.box:hover{
+    background-image:url('../images/cheems.png');
+    
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover{
+    color: var(--other-color);
+    font-size: 40px;
+}

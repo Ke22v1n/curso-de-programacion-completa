@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url(menu.css);
+@import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(footer.css);
+*,
+*,*::before, *::after {
+    box-sizing: border-box; /*evita que las cajas se desborden*/
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color: #f8f8f8;
+    --secundary-color: #BD3111;
+    --tertiary-color: #875548;
+    --other-color:#603f79;
+    --white: #110f0f;
+    --black: #0000;     
+}
+
+/*todo lo puesto aca afecta al body de html*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--main-color);
+    font-family: "Newsreader", serif; }
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--other-color);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--other-color);
+}
+
+/*listas */
+ul {
+    list-style: none; }
+/*enlaces*/
+a {
+    color:var(--white);
+    text-decoration: none;
+}
+
